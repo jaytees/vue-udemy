@@ -1,9 +1,9 @@
 <template lang="html">
-  <ul>
+  <ul class="list-group">
     <VideoListItem
       v-for="video in videoResults"
-      :key="video.id.videoId"
-      v-bind:video="video"
+      :key="video.etag"
+      :video="video"
     ></VideoListItem>
   </ul>
 </template>

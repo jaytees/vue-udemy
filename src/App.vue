@@ -1,5 +1,5 @@
 <template lang="html">
-  <div>
+  <div class="container">
     <SearchBar @searchTermChange="onTermChange"></SearchBar>
     <VideoList :videoResults="videos"></VideoList>
   </div>
